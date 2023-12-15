@@ -1,0 +1,79 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 960px;
+    font-size: 1.6rem;
+    box-sizing:border-box;
+    margin: auto;
+  
+    color: #333;
+    
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*   ****** Style pour header ******* */
+
+header img, footer img {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    
+}
+
+nav {
+    width: 80%;
+  display: flex; 
+  justify-content: space-around;
+  margin-left: 4rem;
+  
+}
+
+nav a {
+    text-decoration: none;
+}
+header img {
+    margin-top: -4rem;
+}
+
+
+/* ******** style pour main ******** */
+main {
+   height: 80vh;
+}
+
+
+.slider img {
+   height:400px;
+}
+.chevron {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.btn{
+	border: 1px solid #eee;
+	/*outline:none;
+	padding:10px 30px;*/
+	font-size: 5rem;
+	color:#ddd;
+	cursor: pointer;
+    margin-top: -24rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+}
+.btn i {
+    color: black;
+}
