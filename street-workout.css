@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex picture {
+  width: 50%;
+}
+.flex p {
+  width: 50%;
+}
+.flex img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=street-workout.css.map */
