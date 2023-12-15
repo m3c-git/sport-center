@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+/***************************************Main*********************/
+h1,
+h2,
+h3{
+    text-align: center;
+}
+
+section > div p img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.acceuil-presentation{
+    text-align: justify;
+}
+
+.acceuil-football,
+.acceuil-streetWorkout,
+.acceuil-natation,
+.acceuil-basket
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 0.5em;
+    background-color: rgb(103, 252, 1, 0.5);
+}
+
+/***************************************MAIN Activite*********************/
+.acceuil-activite{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em ;
+}
+
+.acceuil-activite article{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: rgb(103, 252, 1, 0.5);
+}
+
+.acceuil-activite article p img{
+    width: 100%;
+}
+
+.acceuil-activite article p:last-of-type{
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/***************************************En savoir plus*********************/
+.btn{
+    width: 90%;
+    border-radius: 0.5rem;
+    background-color: rgb(103, 252, 1);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.btn:hover{
+    background-color: green;
+    color: #fff;
+}
+
+/***************************************FOOTER*********************/
+.footer{
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+.footer p {
+    text-align: center;
+    padding-right: 2em;
+}
+
+.footer p img{
+    width: 20%;
+    margin: 1em;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reseaux-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+}
+
